@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap project</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel = "stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/9c3217cef3.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <!-- NAV BAR STUFF -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:blanchedalmond">
+      <a class="navbar-brand" href="#">ContentCan</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our Offers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--Header section-->
+    <header id = "header">
+      <div class="overlay">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col">
+                <h1 style="margin-top:495px" class="display-4">Get your content ideas generated and mapped in seconds</h1>
+                <p class="text-muted">Lorem ipsum tempus platea ad lectus hendrerit augue pharetra, diam sagittis vivamus rutrum ac nibh purus. Class orci aptent urna erat per etiam rhoncus cubilia, tempor mollis lacinia erat dolor donec dictumst inceptos, fames imperdiet platea taciti suspendisse aliquam interdum. Torquent cubilia eleifend nunc tellus eu faucibus pharetra ultrices, vitae ad odio fringilla fames auctor dolor in, sed nostra non dolor sit porttitor venenatis.
+
+                  Ut eget ipsum sit odio vehicula sodales sit lobortis, tincidunt dictum donec lacinia vivamus amet urna, et sociosqu quis vestibulum cras suspendisse viverra. Neque nulla condimentum est aenean magna cubilia ultricies euismod nam vitae gravida rhoncus, ut velit gravida in orci elit dapibus amet cras tristique sapien. Suscipit rutrum viverra purus facilisis pulvinar aptent dictumst, ligula mi nec congue mattis orci ullamcorper, venenatis varius venenatis ac urna aenean.</p>
+                <button type="button" class="btn btn-outline-secondary" name="button"> Start!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Features section-->
+    <section id="Features" class="pt-6 pb-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4"> <!-- Each column takes 4 units on medium screens, mb-4 adds margin bottom -->
+            <div class="text-center">
+              <i class="fa-solid fa-pen-to-square fa-3x"></i>
+              <h3>Get personalized content ideas</h3>
+              <p>Use ContentCan to get recommended ideas based on your channel's goals, focus, and audience. ContentCan helps you create new content consistently for your audience.</p>
+            </div>
+          </div>
+          
+          <div class="col-md-4 mb-4"> <!-- Each column takes 4 units on medium screens, mb-4 adds margin bottom -->
+            <div class="text-center">
+              <i class="fa-solid fa-calendar fa-3x"></i>
+              <h3>Get everything scheduled in seconds</h3>
+              <p>ContentCan simplifies your planning process so you can focus on refining your ideas and creating content. Schedule your uploads effortlessly based on your preferences.</p>
+            </div>
+          </div>
+          
+          <div class="col-md-4 mb-4"> <!-- Each column takes 4 units on medium screens, mb-4 adds margin bottom -->
+            <div class="text-center">
+              <i class="fa-solid fa-bookmark fa-3x"></i>
+              <h3>Save and organize your ideas</h3>
+              <p>Store your ideas for future use with ContentCan. Easily retrieve and integrate them into your planning calendar whenever you're ready.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer section-->
+    <footer id="footer" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-5">
+            <div class="content-first">
+              <h2>Follow Us!</h2>
+              <p>Keep up with us online:</p>
+              <div class="social d-flex flex-row">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-6 mb-5">
+            <div class="content-second">
+              <h2>Contact Us</h2>
+              <form action="index.html" method="post">
+                <div class="form-group">
+                  <label for="email">Email *</label>
+                  <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">Message *</label>
+                  <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

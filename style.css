@@ -1,0 +1,102 @@
+.navbar{
+    border-bottom: hwb(0 78% 13%) solid 5px !important;
+}
+
+.navbar .navbar-brand{
+    font-size: 24px !important;
+    margin: 6px;
+    color: hwb(0 78% 13%) !important;
+}
+
+.nav-link{
+    font-size: 20px ;
+    text-transform: uppercase;
+}
+
+.nav-link{
+    color:hwb(0 78% 13%);
+}
+
+#header {
+    position: relative; /* Ensure relative positioning for the overlay */
+    background: url("../images/R.png") no-repeat right;
+    background-position: bottom center; /* Adjust this to control the image position */
+    background-size: 730px;
+    height: 100vh; /* Ensure the header takes full viewport height */
+    display: flex;
+    align-items: top center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+}
+
+
+#header::after {
+    content: "";
+    position: absolute;
+    top: 50;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 250, 250, 0.9); /* White overlay with 89% opacity */
+    pointer-events: none; /* Ensure overlay does not block interactions */
+    z-index: 1; /* Ensure the overlay is behind the content */
+}
+
+.col h1 {
+    font-weight: bold;
+    position: relative;
+    color: #c3bdbd;
+    z-index: 2; /* Ensure the text is above the overlay */
+}
+
+.container {
+    position: relative;
+    z-index: 2; /* Ensure the container content is above the overlay */
+}
+
+#Features {
+    padding-top: 395px; /* Adjust as needed */
+    padding-bottom: 60px; /* Adjust as needed */
+    color: hsl(0, 3%, 63%);
+
+}
+
+#footer {
+    background-color: blanchedalmond;
+    padding: 20px 0; /* Adjust padding as needed */
+  }
+  
+  #footer .container {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .social {
+    margin-bottom: 20px; /* Space below social icons */
+  }
+  
+  .social a {
+    color: white;
+    margin-right: 26px;
+    font-size: 22px;
+    text-decoration: none;
+  }
+  
+  .content-first {
+    padding: 20px; /* Add padding around each content section */
+    margin-left:200px;
+  }
+
+  .content-second{
+    margin-left: 200px;
+  }
+  
+  .content h2 {
+    font-size: 1.2em; /* Corrected font-size value */
+  }
+
+  @media screen and (max-width: 1200px)
+  {
+
+  }
